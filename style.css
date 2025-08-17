@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Class Study Resources</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-wrap">
+      <h1>Class Study Resources</h1>
+      <p class="subtitle">Curated links to notes, books, labs & past papers</p>
+      <form class="search" role="search" aria-label="Filter resources">
+        <input id="q" type="search" placeholder="Search resources…" aria-label="Search resources" />
+      </form>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <h2 class="section-title">Latest</h2>
+      <div class="resources-grid" id="resourceList">
+        <!-- Card 1 -->
+        <article class="card">
+          <div class="card-top">
+            <span class="badge">Notes</span>
+          </div>
+          <h3 class="card-title">
+            <a href="https://example.com/sem3-dsa-notes.pdf" target="_blank" rel="noopener">DSA Lecture Notes (Sem 3)</a>
+          </h3>
+          <p class="card-desc">Concise PDF notes covering arrays, stacks, queues, trees & graphs.</p>
+          <ul class="tags">
+            <li>PDF</li><li>DSA</li><li>Sem 3</li>
+          </ul>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="card">
+          <div class="card-top">
