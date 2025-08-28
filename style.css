@@ -1,40 +1,65 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Class Study Resources</title>
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <header class="site-header">
-    <div class="container header-wrap">
-      <h1>Class Study Resources</h1>
-      <p class="subtitle">Curated links to notes, books, labs & past papers</p>
-      <form class="search" role="search" aria-label="Filter resources">
-        <input id="q" type="search" placeholder="Search resources…" aria-label="Search resources" />
-      </form>
-    </div>
-  </header>
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
 
-  <main class="container">
-    <section class="section">
-      <h2 class="section-title">Latest</h2>
-      <div class="resources-grid" id="resourceList">
-        <!-- Card 1 -->
-        <article class="card">
-          <div class="card-top">
-            <span class="badge">Notes</span>
-          </div>
-          <h3 class="card-title">
-            <a href="https://example.com/sem3-dsa-notes.pdf" target="_blank" rel="noopener">DSA Lecture Notes (Sem 3)</a>
-          </h3>
-          <p class="card-desc">Concise PDF notes covering arrays, stacks, queues, trees & graphs.</p>
-          <ul class="tags">
-            <li>PDF</li><li>DSA</li><li>Sem 3</li>
-          </ul>
-        </article>
+/* Container */
+.container {
+    width: 80%;
+    max-width: 600px;
+    margin: 40px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+}
 
-        <!-- Card 2 -->
-        <article class="card">
-          <div class="card-top">
+/* Heading */
+h1 {
+    color: navy;
+    text-align: center;
+}
+
+/* Buttons */
+.buttons {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: navy;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    margin: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: darkcyan;
+}
+
+/* Resource List */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+    background: #e0eaff;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: navy;
+    font-weight: bold;
+}
